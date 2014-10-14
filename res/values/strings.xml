@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Comsys</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_open_cv">OpenCVActivity</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    
+    <string name="bluetooth_drawer">Blutooth</string>
+    <string name="wifi_drawer">WiFi</string>
+	<string name="alg_drawer">Algorithm</string>
+    
+</resources>

@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/actionbar_bg</item>
+        <item name="android:titleTextStyle">@style/MyActionBarText</item>
+<!--         <item name="android:textColor">@color/actionbar_text</item> -->
+<!--         <item name="android:textSize">8sp</item> -->
+    </style>
+    
+    <style name="MyActionBarText" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    	<item name="android:textColor">@color/actionbar_text</item>
+    </style>  
+    
+    <style name="ProgressBar.Horizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
+    </style>
+
+    <style name="bt_gradient_style" parent="SmoothProgressBar">
+        <item name="spb_stroke_separator_length">0dp</item>
+        <item name="spb_sections_count">3</item>
+        <item name="spb_stroke_width">4dp</item>
+        <item name="spb_speed">1.7</item>
+        <item name="android:interpolator">@android:anim/decelerate_interpolator</item>
+        <item name="spb_colors">@array/bt_gradient</item>
+    </style>
+
+</resources>

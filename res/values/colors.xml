@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <integer-array name="bt_gradient">
+        <item>@color/bluetooth_color1</item>
+        <item>@color/bluetooth_color2</item>
+        <item>@color/bluetooth_color3</item>
+        <item>@color/bluetooth_color4</item>
+        <item>@color/bluetooth_color5</item>
+    </integer-array>
+    
+    <color name="bluetooth_color1">#477984</color>
+    <color name="bluetooth_color2">#FEF5EB</color>
+    <color name="bluetooth_color3">#C03C44</color>
+    <color name="bluetooth_color4">#EEAA4D</color>
+    <color name="bluetooth_color5">#313E4A</color>
+    
+    <color name="actionbar_bg">#046380</color>
+    <color name="actionbar_text">#cecece</color>
+    
+</resources>
